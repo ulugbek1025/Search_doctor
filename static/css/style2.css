@@ -1,0 +1,112 @@
+body{
+    font-family: 'Roboto', sans-serif;
+  }
+  /*--------------------------------------------------------------
+  # Navigation Menu
+  --------------------------------------------------------------*/
+  .nav-back{
+      background: rgb(8, 30, 48);
+      color: #fff;
+  }
+  .navbar-brand{
+    color: white;
+  }
+  .navbar-brand:hover{
+    color: rgb(11, 54, 110);
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav-link:hover{
+    color:rgb(11, 54, 110);
+  }
+  .navbar-toggler{
+    outline: none!important;
+  }
+  
+    
+    
+    @media (min-width: 1200px) {
+      .about .about-text {
+        width: 45%;
+      }
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+  /*--------------------------------------------------------------
+  # Footer
+  --------------------------------------------------------------*/
+  .footer {
+    text-align: center;
+    font-size: 0.9rem;
+    background:rgb(8, 38, 63);
+    color: white;
+  }
+  .footer .btn-back{
+    background: #fff;
+    color: #00d9ff;
+  }
+  .footer .text{
+    color: white;
+  }
+  
+  
+  

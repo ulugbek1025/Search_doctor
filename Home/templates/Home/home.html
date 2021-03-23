@@ -1,0 +1,41 @@
+{% extends "Home/base.html" %} {% block body_block %} {% load static %} {% load bootstrap4 %}
+<div>
+    <h1>
+
+
+    </h1>
+</div>
+<div style=" padding: 1%;">
+    <h1>Search taxlash kerak</h1>
+</div>
+<diV class="cards ">
+    <div class="card ">
+        <div class="card-body ">
+            <h5 class="card-title ">Mutaxasislar</h5>
+            <link rel="stylesheet " href="{% static 'css/home.style.css' %} ">
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="{% url 'Home:specialties' %} " class="card-link ">Card link</a>
+
+        </div>
+    </div>
+    <div class="card ">
+        <div class="card-body ">
+            <h5 class="card-title ">Kasaliklar</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="{% url 'Home:condition' %} " class="card-link ">Card link</a>
+
+        </div>
+    </div>
+    <div class="card ">
+        <div class="card-body ">
+            <h5 class="card-title ">operatsiyalar</h5>
+            <h6 class="card-subtitle mb-2 text-muted ">Card subtitle</h6>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="{% url 'Home:procedures' %} " class="card-link ">Card link</a>
+
+        </div>
+    </div>
+</diV>
+<h1>Bosh oynani nimala bilandir to'ldirish kerak masalan sayt haqida ,tavsiya etilgan doctorlar,sayt qanday iwlaw</h1>{% endblock %}

@@ -1,0 +1,8 @@
+{% extends "Home/base.html" %}{% block body_block %}{% load static %} {% load bootstrap4%} {% for proceduress in procedures %}
+<div class=" card ">
+    <div class="card-body ">
+
+        <a href="{% url 'Home:procedures_doctor' proceduress.id %}" class="card-link ">{{proceduress}}</a>
+    </div>
+</div>
+{% endfor %}{% endblock %}

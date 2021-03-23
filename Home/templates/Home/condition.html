@@ -1,0 +1,9 @@
+{% extends "Home/base.html" %}{% block body_block %}{% load static %} {% load bootstrap4%} {% for conditionss in condition%}
+
+<div class=" card ">
+    <div class="card-body ">
+
+        <a href=" {% url 'Home:condition_doctor' conditionss.id %} " class="card-link ">{{conditionss}}</a>
+    </div>
+</div>
+{% endfor %}{% endblock %}
